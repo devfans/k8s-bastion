@@ -1,0 +1,15 @@
+{
+  "name": "k8s-bastion",
+  "version": "0.0.1",
+  "description": "kubernetes bastion server with tools like kubectl helm git-to-k8s awscli",
+  "deploy": {
+    "images": [],
+    "charts": [
+      {
+        "path": "chart",
+        "values": "values.yaml",
+        "release": "k8s-bastion"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+name: k8s-bastion
+version: 0.0.1
+appVersion: 0.0.1
+description: k8s-bastion-server
+keywords:
+- bastion
+home: https://github.com/devfans/k8s-bastion
+icon: ''
+maintainers:
+- name: stefan
+  email: stefanliu@outlook.com
+engine: gotpl
